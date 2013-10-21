@@ -1,0 +1,12 @@
+Building on Pi
+++++++++++++++
+
+To build the app on the pi, first build the libs:
+make -C libs/ilclient
+make -C libs/vgfont
+
+then by entering  video2jpg directory and run make
+  cd hello_world
+  make
+  ./video2jpg.bin 
+
